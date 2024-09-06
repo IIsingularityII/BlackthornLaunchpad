@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Scripts.ResourceFeature;
 
 public class Worker : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class Worker : MonoBehaviour
                 if(Time.time > _nextCollectTime)
                 {
                     _nextCollectTime = Time.time + TimeBetweenCollect;
-                    _currentResource.ResourceAmount -= CollectAmount;
+                    _currentResource.Amount -= CollectAmount;
                 }
             }
         }

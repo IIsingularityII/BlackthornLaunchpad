@@ -228,5 +228,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aced23a6c130de4db82dc61662f5efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResourceType: Crystal
+  ResourceType: 1
   ResourceAmount: 20
