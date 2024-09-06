@@ -10,6 +10,7 @@ public class Worker : MonoBehaviour
     public float TimeBetweenCollect;
     public int CollectAmount;
     private Resource _currentResource;
+    private ResourcesFeature _resourcesFeature; 
     private float _nextCollectTime;
     private bool _isSelected;
 
