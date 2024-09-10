@@ -281,6 +281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (3)
@@ -611,6 +615,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (6)
@@ -668,6 +676,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (5)
@@ -725,6 +737,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (10)
@@ -849,6 +865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (4)
@@ -911,6 +931,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (4)
@@ -1215,6 +1239,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (8)
@@ -1272,6 +1300,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (11)
@@ -1339,6 +1371,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (5)
@@ -1471,6 +1507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (2)
@@ -1545,6 +1585,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (2)
@@ -1809,6 +1853,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (1)
@@ -1868,6 +1916,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4981514047131452227, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
   m_PrefabInstance: {fileID: 143110851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1244911474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244911476}
+  - component: {fileID: 1244911475}
+  m_Layer: 0
+  m_Name: ResourceFeature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1244911475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244911474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7905137be83a9f940afc8f77e1c92b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1244911476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244911474}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.375042, y: 3.8815298, z: -0.0043553435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255886373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,6 +2429,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood
@@ -2558,6 +2654,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (13)
@@ -2620,6 +2720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (1)
@@ -2677,6 +2781,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (7)
@@ -2734,6 +2842,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal
@@ -2853,6 +2965,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (12)
@@ -2912,50 +3028,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4981514047131452227, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
   m_PrefabInstance: {fileID: 206325072}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1965198328
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1965198330}
-  - component: {fileID: 1965198329}
-  m_Layer: 0
-  m_Name: ResourceManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1965198329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965198328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8c95ce1767af8409b7b8e966ba5e67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1965198330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965198328}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2045754106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2964,6 +3036,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (9)
@@ -3222,6 +3298,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2128072401}
     m_Modifications:
+    - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
+      propertyPath: FeatureOnScene
+      value: 
+      objectReference: {fileID: 1244911474}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (3)
@@ -3342,4 +3422,4 @@ SceneRoots:
   - {fileID: 1321023487}
   - {fileID: 124301001}
   - {fileID: 1352653542}
-  - {fileID: 1965198330}
+  - {fileID: 1244911476}

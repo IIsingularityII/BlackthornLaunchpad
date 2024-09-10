@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Scripts.ResourceFeature
 {
-    public class Resource : MonoBehaviour, IResource
+    public class Resource : IResource
     {
         public event Action<int, int> Changed;
         public ResourceType Type { get; }
@@ -27,18 +27,6 @@ namespace Scripts.ResourceFeature
         {
             Type = type;
             Amount = amountByDefault;
-        }
-        void Start()
-        {
-
-        }
-
-        void Update()
-        {
-            if (Amount <= 0)
-            {
-                Destroy(gameObject);
-            }
         }
     }
 }

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4981514047131452227}
   - component: {fileID: 3555264678669157478}
-  - component: {fileID: 860593705723672913}
   - component: {fileID: -78624001537728006}
+  - component: {fileID: -4814107623162300979}
   m_Layer: 6
   m_Name: Wood
   m_TagString: Untagged
@@ -87,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &860593705723672913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2881197400317183219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aced23a6c130de4db82dc61662f5efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ResourceType: Wood
-  ResourceAmount: 20
 --- !u!61 &-78624001537728006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,6 +132,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6304522, y: 2.88}
   m_EdgeRadius: 0
+--- !u!114 &-4814107623162300979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881197400317183219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88635e833904c64418b0a6d4eaaba0b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FeatureOnScene: {fileID: 0}
+  Type: 0
+  DefaultAmount: 15
 --- !u!1 &4374309928867105431
 GameObject:
   m_ObjectHideFlags: 0

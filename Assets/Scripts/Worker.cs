@@ -9,8 +9,7 @@ public class Worker : MonoBehaviour
     public float CollectDistance;
     public float TimeBetweenCollect;
     public int CollectAmount;
-    private Resource _currentResource;
-    private ResourcesFeature _resourcesFeature; 
+    private ResourceBehaviour _currentResource;
     private float _nextCollectTime;
     private bool _isSelected;
 
@@ -32,7 +31,7 @@ public class Worker : MonoBehaviour
             Collider2D col = Physics2D.OverlapCircle(transform.position, CollectDistance, ResourceLayer);
             if (col != null && _currentResource == null)
             {
-                _currentResource = col.GetComponent<Resource>();
+                _currentResource = col.GetComponent<ResourceBehaviour>();
             }
             else _currentResource = null;
 
@@ -41,7 +40,7 @@ public class Worker : MonoBehaviour
                 if(Time.time > _nextCollectTime)
                 {
                     _nextCollectTime = Time.time + TimeBetweenCollect;
-                    _currentResource.Amount -= CollectAmount;
+                    _currentResource.CollectResource(CollectAmount);
                 }
             }
         }
