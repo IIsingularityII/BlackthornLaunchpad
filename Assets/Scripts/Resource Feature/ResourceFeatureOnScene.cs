@@ -1,10 +1,14 @@
 ﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 namespace Scripts.ResourceFeature
 {
     public class ResourceFeatureOnScene : MonoBehaviour
     {
+        [SerializeField] private TextMeshProUGUI woodAmount;
+        [SerializeField] private TextMeshProUGUI bloodAmount;
+        [SerializeField] private TextMeshProUGUI crystalAmount;
         private ResourcesFeature _resourceFeature;
 
         void Start()
@@ -30,6 +34,18 @@ namespace Scripts.ResourceFeature
         private void OnResourceChanged(ResourceType resourceType, int oldValue, int newValue)
         {
             Debug.Log($"Resource amount changed. Resource type: {resourceType}. OldValue: {oldValue}. NewValue: {newValue}");
+            switch (resourceType)
+            {
+                case ResourceType.Wood:
+                    woodAmount.text = newValue.ToString();
+                    break;
+                case ResourceType.Blood:
+                    bloodAmount.text = newValue.ToString();
+                    break;
+                case ResourceType.Crystal:
+                    crystalAmount.text = newValue.ToString();
+                    break;
+            }
         }
         
         public void AddResource(ResourceType type, int amount)
