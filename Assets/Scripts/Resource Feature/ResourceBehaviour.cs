@@ -1,6 +1,7 @@
 ﻿using Scripts.ResourceFeature;
 using System.Collections;
 using UnityEngine;
+using Zenject;
 
 namespace Scripts.ResourceFeature
 {
@@ -10,13 +11,12 @@ namespace Scripts.ResourceFeature
         public Resource resource;
         [SerializeField] private int DefaultAmount;
         private int _currentAmount;
-        private ResourceFeatureOnScene _feature;
+        [Inject] private ResourceFeatureOnScene _feature;
 
         void Start()
         {
             resource = new Resource(Type, DefaultAmount);
             _currentAmount = resource.Amount;
-            _feature = FindAnyObjectByType<ResourceFeatureOnScene>();
         }
 
         void Update()

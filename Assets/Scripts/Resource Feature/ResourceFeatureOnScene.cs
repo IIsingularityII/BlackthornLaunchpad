@@ -33,7 +33,6 @@ namespace Scripts.ResourceFeature
         }
         private void OnResourceChanged(ResourceType resourceType, int oldValue, int newValue)
         {
-            Debug.Log($"Resource amount changed. Resource type: {resourceType}. OldValue: {oldValue}. NewValue: {newValue}");
             switch (resourceType)
             {
                 case ResourceType.Wood:
