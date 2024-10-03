@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 3611714}
   - component: {fileID: 3611713}
   - component: {fileID: 3611715}
+  - component: {fileID: 3611716}
   m_Layer: 5
   m_Name: Village Button
   m_TagString: Untagged
@@ -332,6 +333,33 @@ MonoBehaviour:
           m_StringArgument: village
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3611716}
+        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
+        m_MethodName: RemoveResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3611716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3611711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600a391f70435e48a5aa387c52eba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodCost: 0
+  crystalCost: 0
+  bloodCost: 200
 --- !u!1 &34297255
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,6 +372,7 @@ GameObject:
   - component: {fileID: 34297258}
   - component: {fileID: 34297257}
   - component: {fileID: 34297259}
+  - component: {fileID: 34297260}
   m_Layer: 5
   m_Name: Wood Button
   m_TagString: Untagged
@@ -466,6 +495,33 @@ MonoBehaviour:
           m_StringArgument: tree
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 34297260}
+        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
+        m_MethodName: RemoveResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &34297260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34297255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600a391f70435e48a5aa387c52eba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodCost: 0
+  crystalCost: 20
+  bloodCost: 0
 --- !u!1001 &43606513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -623,6 +679,7 @@ GameObject:
   - component: {fileID: 115003176}
   - component: {fileID: 115003175}
   - component: {fileID: 115003177}
+  - component: {fileID: 115003178}
   m_Layer: 5
   m_Name: Trap Button
   m_TagString: Untagged
@@ -745,6 +802,33 @@ MonoBehaviour:
           m_StringArgument: trap
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 115003178}
+        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
+        m_MethodName: RemoveResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &115003178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115003173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600a391f70435e48a5aa387c52eba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodCost: 15
+  crystalCost: 0
+  bloodCost: 0
 --- !u!1001 &124301001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2406,7 @@ GameObject:
   - component: {fileID: 960490842}
   - component: {fileID: 960490841}
   - component: {fileID: 960490843}
+  - component: {fileID: 960490844}
   m_Layer: 5
   m_Name: Crystal Button
   m_TagString: Untagged
@@ -2441,9 +2526,36 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: crytal
+          m_StringArgument: crystal
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 960490844}
+        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
+        m_MethodName: RemoveResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &960490844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960490839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600a391f70435e48a5aa387c52eba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodCost: 0
+  crystalCost: 20
+  bloodCost: 0
 --- !u!1 &973213902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,6 +3460,7 @@ GameObject:
   - component: {fileID: 1383600423}
   - component: {fileID: 1383600422}
   - component: {fileID: 1383600424}
+  - component: {fileID: 1383600425}
   m_Layer: 5
   m_Name: Worker Button
   m_TagString: Untagged
@@ -3470,6 +3583,33 @@ MonoBehaviour:
           m_StringArgument: worker
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1383600425}
+        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
+        m_MethodName: RemoveResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1383600425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383600420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600a391f70435e48a5aa387c52eba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodCost: 0
+  crystalCost: 0
+  bloodCost: 15
 --- !u!1 &1406798894
 GameObject:
   m_ObjectHideFlags: 0

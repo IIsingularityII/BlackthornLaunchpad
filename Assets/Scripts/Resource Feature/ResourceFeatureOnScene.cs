@@ -9,7 +9,7 @@ namespace Scripts.ResourceFeature
         [SerializeField] private TextMeshProUGUI woodAmount;
         [SerializeField] private TextMeshProUGUI bloodAmount;
         [SerializeField] private TextMeshProUGUI crystalAmount;
-        private ResourcesFeature _resourceFeature;
+        public ResourcesFeature resourceFeature;
 
         void Start()
         {
@@ -18,8 +18,8 @@ namespace Scripts.ResourceFeature
             var resourceBlood = new Resource(ResourceType.Blood, 0);
             var resources = new[] { resourceWood, resourceCrystall, resourceBlood };
 
-            _resourceFeature = new ResourcesFeature(resources);
-            _resourceFeature.ResourceChanged += OnResourceChanged;
+            resourceFeature = new ResourcesFeature(resources);
+            resourceFeature.ResourceChanged += OnResourceChanged;
         }
 
         void Update()
@@ -29,7 +29,7 @@ namespace Scripts.ResourceFeature
 
         private void OnDestroy()
         {
-            _resourceFeature.ResourceChanged -= OnResourceChanged;
+            resourceFeature.ResourceChanged -= OnResourceChanged;
         }
         private void OnResourceChanged(ResourceType resourceType, int oldValue, int newValue)
         {
@@ -49,7 +49,7 @@ namespace Scripts.ResourceFeature
         
         public void AddResource(ResourceType type, int amount)
         {
-            _resourceFeature.AddResource(type, amount);
+            resourceFeature.AddResource(type, amount);
         }
     }
 }
