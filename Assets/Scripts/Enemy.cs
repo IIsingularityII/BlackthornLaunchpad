@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float minX, maxX, minY, maxY;
     [SerializeField] private float minDistance = 0.5f;
-    [Inject] private DiContainer _diContainer;
     private Vector3 _currentTarget;
     
 
@@ -46,8 +45,7 @@ public class Enemy : MonoBehaviour
         else if(collision.tag == "Trap")
         {
             Destroy(collision.gameObject);
-            //Instantiate(blood, transform.position, Quaternion.identity);
-            _diContainer.InstantiatePrefab(blood, transform.position, Quaternion.identity, null);
+            Instantiate(blood, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
