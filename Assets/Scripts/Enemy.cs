@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Zenject;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private GameObject blood;
     [SerializeField] private float speed;
     [SerializeField] private float minX, maxX, minY, maxY;
     [SerializeField] private float minDistance = 0.5f;
+    [Inject] private DiContainer _diContainer;
     private Vector3 _currentTarget;
+    
 
     void Start()
     {
@@ -38,6 +42,13 @@ public class Enemy : MonoBehaviour
         if(collision.tag == "Altar")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else if(collision.tag == "Trap")
+        {
+            Destroy(collision.gameObject);
+            //Instantiate(blood, transform.position, Quaternion.identity);
+            _diContainer.InstantiatePrefab(blood, transform.position, Quaternion.identity, null);
+            Destroy(gameObject);
         }
     }
 }

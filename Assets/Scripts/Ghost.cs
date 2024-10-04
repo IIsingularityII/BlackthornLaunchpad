@@ -6,6 +6,7 @@ using Zenject;
 public class Ghost : MonoBehaviour
 {
     [SerializeField] private GameObject objectToSpawn;
+    [Inject] private DiContainer _diContainer;
 
     void Start()
     {
@@ -21,7 +22,8 @@ public class Ghost : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
-            Instantiate(objectToSpawn, transform.position, Quaternion.identity);
+            //Instantiate(objectToSpawn, transform.position, Quaternion.identity);
+            _diContainer.InstantiatePrefab(objectToSpawn, transform.position, Quaternion.identity, null);
             Destroy(gameObject);
         }
     }

@@ -171,9 +171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab60eda614ca6f4ebb19da9cb868047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blood: {fileID: 8320985507622384543, guid: 43ae3f71f49aa3343b24d6ca1aaea6f0, type: 3}
   speed: 2
   minX: -24
   maxX: 28.13
   minY: -11.62
   maxY: 12.25
-  minDistance: 0
+  minDistance: 0.5
