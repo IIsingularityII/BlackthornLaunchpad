@@ -13,6 +13,7 @@ namespace Scripts.ResourceFeature
 
         void Start()
         {
+            woodAmount.text = bloodAmount.text = crystalAmount.text = "0";
             var resourceWood = new Resource(ResourceType.Wood, 0);
             var resourceCrystall = new Resource(ResourceType.Crystal, 0);
             var resourceBlood = new Resource(ResourceType.Blood, 0);

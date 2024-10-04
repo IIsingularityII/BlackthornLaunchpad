@@ -590,7 +590,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (3)
@@ -1042,7 +1042,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (6)
@@ -1103,7 +1103,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (5)
@@ -1164,7 +1164,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (10)
@@ -1292,7 +1292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &275714459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1347,7 +1347,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (4)
@@ -1413,7 +1413,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (4)
@@ -1817,7 +1817,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (8)
@@ -2044,7 +2044,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (11)
@@ -2298,7 +2298,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (5)
@@ -2435,7 +2435,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (2)
@@ -2513,7 +2513,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (2)
@@ -2774,7 +2774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03cff2a69c03eb74191fcf1a543162bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  feature: {fileID: 1244911475}
+  feature: {fileID: 2909427558359238584, guid: 19fba939b487fa44c87f491d1f1c59f6, type: 3}
+  featurePoint: {fileID: 973213903}
 --- !u!1 &1004085822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,7 +3020,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (1)
@@ -3244,53 +3245,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4981514047131452227, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
   m_PrefabInstance: {fileID: 143110851}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1244911474
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1244911476}
-  - component: {fileID: 1244911475}
-  m_Layer: 0
-  m_Name: ResourceFeature
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1244911475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244911474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7905137be83a9f940afc8f77e1c92b78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  woodAmount: {fileID: 2105642551}
-  bloodAmount: {fileID: 1660915981}
-  crystalAmount: {fileID: 766462955}
---- !u!4 &1244911476
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244911474}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.375042, y: 3.8815298, z: -0.0043553435}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255886373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +4216,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood
@@ -4487,7 +4441,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (13)
@@ -4762,7 +4716,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (1)
@@ -4823,7 +4777,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (7)
@@ -4884,7 +4838,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal
@@ -5141,7 +5095,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (12)
@@ -5287,7 +5241,7 @@ PrefabInstance:
     - target: {fileID: -4814107623162300979, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 2881197400317183219, guid: 9fb67ba9201107843b4db3c4d4e92d41, type: 3}
       propertyPath: m_Name
       value: Wood (9)
@@ -5684,7 +5638,7 @@ PrefabInstance:
     - target: {fileID: 786217179391787181, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: FeatureOnScene
       value: 
-      objectReference: {fileID: 1244911474}
+      objectReference: {fileID: 0}
     - target: {fileID: 5635771207798311709, guid: 52b4dec60de870543ae2f02527bb1daf, type: 3}
       propertyPath: m_Name
       value: Crystal (3)
@@ -5805,7 +5759,6 @@ SceneRoots:
   - {fileID: 1321023487}
   - {fileID: 124301001}
   - {fileID: 1352653542}
-  - {fileID: 1244911476}
   - {fileID: 1292359654}
   - {fileID: 755628376}
   - {fileID: 733942983}

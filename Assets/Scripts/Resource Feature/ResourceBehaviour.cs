@@ -11,12 +11,17 @@ namespace Scripts.ResourceFeature
         public Resource resource;
         [SerializeField] private int DefaultAmount;
         private int _currentAmount;
-        [Inject] private ResourceFeatureOnScene _feature;
-
+        private ResourceFeatureOnScene _feature;
+        [Inject]
+        private void Construct(ResourceFeatureOnScene feature)
+        {
+            _feature = feature;
+        }
         void Start()
         {
             resource = new Resource(Type, DefaultAmount);
             _currentAmount = resource.Amount;
+            _feature = FindObjectOfType<ResourceFeatureOnScene>();
         }
 
         void Update()

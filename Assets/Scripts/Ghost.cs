@@ -1,3 +1,4 @@
+using Scripts.ResourceFeature;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class Ghost : MonoBehaviour
 {
     [SerializeField] private GameObject objectToSpawn;
     [Inject] private DiContainer _diContainer;
+    [Inject] private DiContainer container;
 
     void Start()
     {
@@ -22,8 +24,9 @@ public class Ghost : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
-            //Instantiate(objectToSpawn, transform.position, Quaternion.identity);
-            _diContainer.InstantiatePrefab(objectToSpawn, transform.position, Quaternion.identity, null);
+            //container.InstantiatePrefabForComponent<ResourceBehaviour>(objectToSpawn, transform.position, Quaternion.identity, null);
+            Instantiate(objectToSpawn, transform.position, Quaternion.identity);
+            //_diContainer.InstantiatePrefab(objectToSpawn, transform.position, Quaternion.identity, null);
             Destroy(gameObject);
         }
     }
