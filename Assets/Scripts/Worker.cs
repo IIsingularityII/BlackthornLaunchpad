@@ -10,12 +10,14 @@ public class Worker : MonoBehaviour
     public float TimeBetweenCollect;
     public int CollectAmount;
     private ResourceBehaviour _currentResource;
+    private ResourceFeatureOnScene _feature;
     private float _nextCollectTime;
     private bool _isSelected;
-
+    private GameObject _altar;
     void Start()
     {
-        
+        _altar = GameObject.FindGameObjectWithTag("Altar");
+        _feature = FindObjectOfType<ResourceFeatureOnScene>();
     }
 
     void Update()
@@ -28,6 +30,11 @@ public class Worker : MonoBehaviour
         }
         else
         {
+            if(Vector3.Distance(transform.position, _altar.transform.position) <= 0.5f)
+            {
+                _feature.AddSacrificedWorker();
+                Destroy(gameObject);
+            }
             Collider2D col = Physics2D.OverlapCircle(transform.position, CollectDistance, ResourceLayer);
             if (col != null && _currentResource == null)
             {

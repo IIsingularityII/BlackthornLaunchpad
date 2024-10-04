@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Scripts.ResourceFeature
 {
@@ -10,10 +11,13 @@ namespace Scripts.ResourceFeature
         [SerializeField] private TextMeshProUGUI bloodAmount;
         [SerializeField] private TextMeshProUGUI crystalAmount;
         public ResourcesFeature resourceFeature;
+        public TMP_Text sacrificeText;
+        [SerializeField] private int numberOfWorkersSacrificed;
+        [SerializeField] private int maxWorkersForSacrifice;
+
 
         void Start()
         {
-            woodAmount.text = bloodAmount.text = crystalAmount.text = "0";
             var resourceWood = new Resource(ResourceType.Wood, 0);
             var resourceCrystall = new Resource(ResourceType.Crystal, 0);
             var resourceBlood = new Resource(ResourceType.Blood, 0);
@@ -51,6 +55,17 @@ namespace Scripts.ResourceFeature
         public void AddResource(ResourceType type, int amount)
         {
             resourceFeature.AddResource(type, amount);
+        }
+
+        public void AddSacrificedWorker()
+        {
+            numberOfWorkersSacrificed++;
+            sacrificeText.text = numberOfWorkersSacrificed + " / " + maxWorkersForSacrifice;
+            if(numberOfWorkersSacrificed >= maxWorkersForSacrifice)
+            {
+                Debug.Log("Win");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            } 
         }
     }
 }
