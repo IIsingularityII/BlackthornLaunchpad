@@ -14,6 +14,9 @@ public class Worker : MonoBehaviour
     private float _nextCollectTime;
     private bool _isSelected;
     private GameObject _altar;
+    [SerializeField] private GameObject resourcePopUp;
+    [SerializeField] private float distanceFromAltar = 1f;
+    [SerializeField] private GameObject deathSound;
     void Start()
     {
         _altar = GameObject.FindGameObjectWithTag("Altar");
@@ -30,8 +33,9 @@ public class Worker : MonoBehaviour
         }
         else
         {
-            if(Vector3.Distance(transform.position, _altar.transform.position) <= 0.5f)
+            if(Vector3.Distance(transform.position, _altar.transform.position) <= distanceFromAltar)
             {
+                Instantiate(deathSound);
                 _feature.AddSacrificedWorker();
                 Destroy(gameObject);
             }
@@ -46,6 +50,7 @@ public class Worker : MonoBehaviour
             {
                 if(Time.time > _nextCollectTime)
                 {
+                    Instantiate(resourcePopUp, transform.position, Quaternion.identity);
                     _nextCollectTime = Time.time + TimeBetweenCollect;
                     _currentResource.CollectResource(CollectAmount);
                 }

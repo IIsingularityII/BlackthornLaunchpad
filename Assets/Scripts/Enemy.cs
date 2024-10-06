@@ -11,10 +11,12 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float minX, maxX, minY, maxY;
     [SerializeField] private float minDistance = 0.5f;
     private Vector3 _currentTarget;
+    private Animator _camAnimator;
     
 
     void Start()
     {
+        _camAnimator = Camera.main.GetComponent<Animator>();
        SetRandomTarget();
     }
 
@@ -44,9 +46,15 @@ public class Enemy : MonoBehaviour
         }
         else if(collision.tag == "Trap")
         {
+            _camAnimator.SetTrigger("shake");
             Destroy(collision.gameObject);
             Instantiate(blood, transform.position, Quaternion.identity);
             Destroy(gameObject);
+        }
+        else if(collision.GetComponent<Worker>() != null)
+        {
+            Instantiate(blood, collision.transform.position, Quaternion.identity);
+            Destroy(collision.gameObject);
         }
     }
 }

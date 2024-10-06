@@ -7,15 +7,17 @@ using Zenject;
 public class Ghost : MonoBehaviour
 {
     [SerializeField] private GameObject objectToSpawn;
+    [SerializeField] private GameObject buildEffect;
+    [SerializeField] private GameObject spawnSound;
     [Inject] private DiContainer _diContainer;
     [Inject] private DiContainer container;
+    private Animator _camAnimator;
 
     void Start()
     {
-        
+        _camAnimator = Camera.main.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -24,9 +26,10 @@ public class Ghost : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
-            //container.InstantiatePrefabForComponent<ResourceBehaviour>(objectToSpawn, transform.position, Quaternion.identity, null);
+            Instantiate(spawnSound);
+            Instantiate(buildEffect, transform.position, Quaternion.identity);
+            _camAnimator.SetTrigger("shake");
             Instantiate(objectToSpawn, transform.position, Quaternion.identity);
-            //_diContainer.InstantiatePrefab(objectToSpawn, transform.position, Quaternion.identity, null);
             Destroy(gameObject);
         }
     }

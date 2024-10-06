@@ -296,4 +296,7 @@ MonoBehaviour:
     m_Bits: 64
   CollectDistance: 0.2
   TimeBetweenCollect: 0.5
-  CollectAmount: 2
+  CollectAmount: 1
+  resourcePopUp: {fileID: 307380005647984017, guid: e9644a236c41cd4479e12b71a2a837f3, type: 3}
+  distanceFromAltar: 1
+  deathSound: {fileID: 706624578029243790, guid: a5f7f45df3d3cf6498d06be39de28dbc, type: 3}
